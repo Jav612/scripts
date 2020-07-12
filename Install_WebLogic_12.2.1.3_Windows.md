@@ -74,9 +74,17 @@
 
 * Create folders to C:\
 
-  * /fmw_12.2.1.3
-  * /fmw_12.2.1.3_HOME
-  * /WL12.2.1.3_Domains
+  ```bash
+  > mkdir fmw_12.2.1.3
+  > mkdir fmw_12.2.1.3_HOME
+  > mkdir WL12.2.1.3_Domains
+  ```
+
+* **OR** 
+
+  ```bash
+  md fmw_12.2.1.3 fmw_12.2.1.3_HOME WL12.2.1.3_Domains
+  ```
 
 * Extract zip download `fmw_12.2.1.3.0_wls_quick_Disk1_1of1.zip` move folder `fmw_12.2.1.3`
 
@@ -146,7 +154,7 @@
 
 ## Error Solved
 
-Jdk invalid or JRE invalid, We recommend that you remove unused JDK installations. Remove `path` that overwrites the `environment variable` **JAVA_HOME** for example java installations that deprive other products.
+[Jdk invalid or JRE invalid](https://www.codejava.net/ides/eclipse/how-to-run-eclipse-under-different-version-of-jdk-or-jre), We recommend that you remove unused JDK installations. Remove `path` that overwrites the `environment variable` **JAVA_HOME** for example java installations that deprive other products.
 
 ```tex
 C:\Program Files\Common Files\Oracle\Java\javapath;
@@ -154,10 +162,9 @@ C:\Program Files\Common Files\Oracle\Java\javapath;
 
 ## Sources 
 
-- [switchJDKVersion](htps://stackoverflow.com/questions/47469310/switch-jdk-version-in-windows-10-cmd)
-- [Oracle Weblogic Server 12.2.1.3 Installation from Dev Zip Archive Windows 10 using Oracle JDK 8](https://www.youtube.com/watch?v=jKdVOV9ZlVk) 
-- [Setting JAVA_HOME](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
-- [Set JAVA_HOME WINDOWS 10](https://javatutorial.net/set-java-home-windows-10)
-- [windows cmd set JAVA_HOME](https://bytenota.com/windows-cmd-set-java_home-variable-using-command-prompt/)
-
- 
+* [Switch JDK Version](https://stackoverflow.com/questions/47469310/switch-jdk-version-in-windows-10-cmd)
+* [Oracle Weblogic Server 12.2.1.3 Installation from Dev Zip Archive Windows 10 using Oracle JDK 8](https://www.youtube.com/watch?v=jKdVOV9ZlVk) 
+* [Setting JAVA_HOME](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
+* [Set JAVA_HOME WINDOWS 10](https://javatutorial.net/set-java-home-windows-10)
+* [Windows cmd set JAVA_HOME](https://bytenota.com/windows-cmd-set-java_home-variable-using-command-prompt/)
+* [Create Folder CMD](https://www.tech-recipes.com/rx/57409/create-folder-using-cmd-windows/)
