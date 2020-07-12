@@ -66,3 +66,10 @@
    - Now open another **CMD** and use `echo %JAVA_HOME%` command to check whether we did it right or not.
 
      ![ECHO_JAVA_HOME](https://image.bytenota.com/data/201808/cmd-check-javahome-variable.jpg)
+
+## Sources 
+
+* [Switch JDK Version](https://stackoverflow.com/questions/47469310/switch-jdk-version-in-windows-10-cmd)
+* [Setting JAVA_HOME](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
+* [Set JAVA_HOME WINDOWS 10](https://javatutorial.net/set-java-home-windows-10)
+* [Windows cmd set JAVA_HOME](https://bytenota.com/windows-cmd-set-java_home-variable-using-command-prompt/)
