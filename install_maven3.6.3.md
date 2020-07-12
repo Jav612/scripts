@@ -9,7 +9,7 @@
 
 * Extract zip apache-maven-3.6.3-bin.zip to the path `C:\
 
-* Go start 
+* Go start & find 
 
 * Type editing the system environment system
 
